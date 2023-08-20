@@ -1,0 +1,88 @@
+/* Importing new font family */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Tektur&display=swap');
+/* Root element for colors */
+:root{
+    --primary-color:#7c3aed;
+    --dark-grey:#6b7280;
+    --off-white:#d1d5db;
+}
+/* body */
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px auto;
+}
+/* Navbar */
+.navbar{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+/* Lists in navbar */
+/* Ancestor-Descendant Selectors */
+.navbar .listinline{
+    display: inline;
+}
+
+/* Ancestor-Descendant Selectors */
+.navbar .link{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+.navbar .links{
+    text-align: right;
+}
+.navbar .links .auto{
+    font-weight: bolder;
+}
+/* Header */
+.hero{
+    max-width: 600px;
+    margin: auto;
+}
+.hero .heroDetail{
+    color: var(--dark-grey);
+    text-align: center;
+    font-weight: bolder;
+    padding: 1rem;
+}
+
+.hero .heroPic{
+    max-width: 80%;
+    width: 600px;
+    margin: auto;
+    display: block;
+    padding: 1rem;
+}
+
+.hero .heroDetail span{
+    color: var(--primary-color);
+}
+
+/* Sections */
+/* Offwhite section */
+.offwhite{
+    text-align: center;
+    background-color: var(--off-white);
+    padding: 1rem;
+}
+/* White Section */
+.white{
+    text-align: center;
+    margin: 2rem;
+}
+.white a{
+    background-color: var(--primary-color);
+    text-decoration: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 2rem;
+    color: white;
+}
+.offwhite a{
+    text-decoration: none;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 0.6rem 1.2rem;
+    border-radius: 2rem;
+}
