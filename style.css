@@ -4,7 +4,7 @@
 :root{
     --primary-color:#7c3aed;
     --dark-grey:#6b7280;
-    --off-white:#d1d5db;
+    --off-white:#f3f4f6;
 }
 /* body */
 body{
@@ -20,7 +20,7 @@ body{
 }
 /* Lists in navbar */
 /* Ancestor-Descendant Selectors */
-.navbar .listinline{
+ .listinline{
     display: inline;
 }
 
@@ -40,12 +40,14 @@ body{
 .hero{
     max-width: 600px;
     margin: auto;
+    padding: 2rem;
+    padding-top: 5rem;
 }
 .hero .heroDetail{
     color: var(--dark-grey);
     text-align: center;
     font-weight: bolder;
-    padding: 1rem;
+    padding-top: 1rem;
 }
 
 .hero .heroPic{
@@ -53,7 +55,6 @@ body{
     width: 600px;
     margin: auto;
     display: block;
-    padding: 1rem;
 }
 
 .hero .heroDetail span{
@@ -65,12 +66,16 @@ body{
 .offwhite{
     text-align: center;
     background-color: var(--off-white);
-    padding: 1rem;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
 }
 /* White Section */
 .white{
     text-align: center;
-    margin: 2rem;
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 1rem;
 }
 .white a{
     background-color: var(--primary-color);
@@ -85,4 +90,18 @@ body{
     color: var(--primary-color);
     padding: 0.6rem 1.2rem;
     border-radius: 2rem;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 2rem 1rem;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+.footer a{
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
 }
